@@ -9,10 +9,16 @@ import android.support.v4.app.FragmentStatePagerAdapter;
  */
 public class ScreenSlidePageAdapter extends FragmentStatePagerAdapter {
     private int numberOfPages=5;
+
+
+
     public ScreenSlidePageAdapter(FragmentManager fm) {
         super(fm);
     }
-
+    public ScreenSlidePageAdapter(FragmentManager fm,int numberOfPages) {
+        super(fm);
+        this.numberOfPages=numberOfPages;
+    }
     @Override
     public Fragment getItem(int position) {
         return new ScreenSlidePageFragment();

@@ -36,7 +36,8 @@ public class ScreenSlidePageActivity extends FragmentActivity    {
 
         // Instantiate a ViewPager and a PagerAdapter.
         mPager = (ViewPager) findViewById(R.id.pager);
-        mPagerAdapter = new ScreenSlidePageAdapter(getSupportFragmentManager());
+        mPagerAdapter = new ScreenSlidePageAdapter(getSupportFragmentManager(),NUM_PAGES);
+
         mPager.setAdapter(mPagerAdapter);
         //Transformer implementation
         //mPager.setPageTransformer(true,new DepthPageTransformer());

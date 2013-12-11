@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Android.iml" filepath="$PROJECT_DIR$/Android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/App/App.iml" filepath="$PROJECT_DIR$/App/App.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cards.iml" filepath="$PROJECT_DIR$/Cards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PageTranformer.iml" filepath="$PROJECT_DIR$/PageTranformer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/App/PageTransformer.iml" filepath="$PROJECT_DIR$/App/PageTransformer.iml" />
     </modules>
   </component>
 </project>
